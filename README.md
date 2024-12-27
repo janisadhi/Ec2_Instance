@@ -65,14 +65,8 @@ This project demonstrates how to set up a Linux server on AWS EC2 and deploy a s
   ```bash
   cd /var/www/html/
   
-  echo "<!DOCTYPE html>
-  <html>
-  <head><title>My Static Website</title></head>
-  <body>
-  <h1>Welcome to My Static Website</h1>
-  <p>This site is hosted on AWS EC2!</p>
-  </body>
-  </html>" >> index.html
+  sudo nano index.html 
+  #then copy the html file to it 
   ```
 
 ### 6. Deploying the Website
